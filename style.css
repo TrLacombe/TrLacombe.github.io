@@ -1,16 +1,55 @@
 @font-face {
-    font-family: 'norwesterregular';
-    src: url('/fonts/norwesterRegular/norwester-webfont.woff2') format('woff2'),
-         url('/fonts/norwesterRegular/norwester-webfont.woff') format('woff');
+    font-family: 'league_spartanbold';
+    src: url('/fonts/leagueSpartan/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('/fonts/leagueSpartan/leaguespartan-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
-* {
+@font-face {
+    font-family: 'aileronLight';
+    src: url('/fonts/aileronLight/aileron-light-webfont.woff2') format('woff2'),
+         url('/fonts/aileronLight/aileron-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
     background-color: black;
     color: white;
 }
 
 h1 {
-    font-family: "norwesterregular";
+    text-align: center;
+    font-family: "league_spartanbold";
+}
+
+article .textBlock {
+    width: 60%;
+    margin: auto;
+    transform: translateX(25%);
+    background-color: white;
+    color : black;
+    position: relative;
+}
+
+article .textBlock .contentDisplayer{
+    margin-right: 5%;
+    width: 60%;
+    padding: 5%;
+}
+
+article .textBlock .titleDisplayer {
+    position: absolute;
+    padding : 5%;
+    transform: translateX(-50%);
+    color : rgb(126, 126, 126)
+}
+
+p {
+    font-family: "aileronLight";
+    text-align: justify;
+    line-height: 2em;
 }
