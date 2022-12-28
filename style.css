@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'norwesterregular';
+    src: url('/fonts/norwesterRegular/norwester-webfont.woff2') format('woff2'),
+         url('/fonts/norwesterRegular/norwester-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     background-color: black;
     color: white;
 }
 
-h1 {font-family: "Norwester";}
+h1 {font-family: "norwesterregular";}
