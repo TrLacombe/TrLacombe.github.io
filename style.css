@@ -13,7 +13,6 @@
          url('/fonts/aileronLight/aileron-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -23,32 +22,44 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 60px;
     font-family: "league_spartanbold";
+    margin : 0%;
+    float: right;
+}
+
+article {
+    margin-top: 10vh;
 }
 
 article .textBlock {
-    width: 60%;
+    width: 70%;
     margin: auto;
-    transform: translateX(25%);
+    transform: translateX(15%);
     background-color: white;
     color : black;
-    position: relative;
-}
-
-article .textBlock .contentDisplayer{
-    margin-right: 5%;
-    width: 60%;
-    padding: 5%;
+    position: relative;   
+    border: 2px solid green;
 }
 
 article .textBlock .titleDisplayer {
     position: absolute;
-    padding : 5%;
-    transform: translateX(-50%);
-    color : rgb(126, 126, 126)
+    top : 50%;
+    padding : 0px 5% 0px;
+    transform: translateX(-50%) translateY(-50%);
+    color : rgb(126, 126, 126);
+    border: 2px solid green;
 }
 
-p {
+article .textBlock .contentDisplayer{
+    width: 60%;
+    padding: 15% 5%;
+    border: 2px solid green;
+    margin: auto;
+    margin-right: 5%;
+}
+
+article .textBlock .contentDisplayer p {
     font-family: "aileronLight";
     text-align: justify;
     line-height: 2em;
